@@ -4,6 +4,8 @@ fileTypes: [natscodegen-typescript]
 uuid: 26D6F82D-7128-47BF-987D-B9671D2F08AA
 
 patterns:
+- include: 'source.ts#declaration'
+- include: 'source.ts#comment'
 - name: comment.block.scriban
   begin: '{(%+){[~\-]?'
   end: '[~\-]?}\1}'

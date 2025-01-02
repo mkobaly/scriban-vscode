@@ -55,11 +55,7 @@
             {
                 "language": "natscodegen-typescript",
                 "scopeName": "source.ts.natscodegen",
-                "path": "./syntaxes/natscodegen-typescript.tmLanguage",
-                "embeddedLanguages": {
-                    "text.script": "typescript",
-                    "source.scriban": "scriban"
-                }   
+                "path": "./syntaxes/natscodegen-typescript.tmLanguage"
             },
             {
                 "language": "natscodegen-csharp",

@@ -15,6 +15,14 @@
     <key>patterns</key>
     <array>
       <dict>
+        <key>include</key>
+        <string>source.ts#declaration</string>
+      </dict>
+      <dict>
+        <key>include</key>
+        <string>source.ts#comment</string>
+      </dict>
+      <dict>
         <key>name</key>
         <string>comment.block.scriban</string>
         <key>begin</key>
