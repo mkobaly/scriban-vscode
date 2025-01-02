@@ -1,7 +1,7 @@
-name: Scriban-CSharp
-scopeName: source.cs.scriban
-fileTypes: [scriban-csharp]
-uuid: 87b709df-3e98-466e-bbac-f437bde7ba35
+name: Natscodegen-CSharp
+scopeName: source.cs.natscodegen
+fileTypes: [natscodegen-csharp]
+uuid: 27b709df-3e98-466e-bbac-f437bde7ba35
 
 patterns:
 - include: 'source.cs#preprocessor'

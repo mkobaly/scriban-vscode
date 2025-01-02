@@ -3,15 +3,15 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>Scriban-CSharp</string>
+    <string>Natscodegen-CSharp</string>
     <key>scopeName</key>
-    <string>source.cs.scriban</string>
+    <string>source.cs.natscodegen</string>
     <key>fileTypes</key>
     <array>
-      <string>scriban-csharp</string>
+      <string>natscodegen-csharp</string>
     </array>
     <key>uuid</key>
-    <string>87b709df-3e98-466e-bbac-f437bde7ba35</string>
+    <string>27b709df-3e98-466e-bbac-f437bde7ba35</string>
     <key>patterns</key>
     <array>
       <dict>

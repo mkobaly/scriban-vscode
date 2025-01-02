@@ -1,17 +1,17 @@
 {
-    "name": "scriban",
-    "displayName": "Scriban",
-    "description": "Syntax Coloring for Scriban Text Templating Language",
+    "name": "natscodegen",
+    "displayName": "Nats Code Gen",
+    "description": "Syntax Coloring when using NatsCodeGen",
     "version": "1.2.1",
-    "publisher": "xoofx",
+    "publisher": "mkobaly",
     "repository": {
         "type": "git",
-        "url": "https://github.com/lunet-io/scriban-vscode"
+        "url": "https://github.com/mkobaly/scriban-vscode"
     },
     "bugs": {
-        "url": "https://github.com/lunet-io/scriban-vscode/issues"
+        "url": "https://github.com/mkobaly/scriban-vscode/issues"
     },
-    "homepage": "https://github.com/lunet-io/scriban-vscode",
+    "homepage": "https://github.com/mkobaly/scriban-vscode",
     "keywords": [
         "templating",
         "liquid",
@@ -34,21 +34,15 @@
                 "configuration": "./language-configuration.json"
             },
             {
-                "id": "scriban-txt",
-                "aliases": ["Scriban Text"],
-                "extensions": [".scriban-txt", ".sbn-txt", ".sbntxt"],
+                "id": "natscodegen-typescript",
+                "aliases": ["Natscodegen Typescript"],
+                "extensions": [".ts.nt"],
                 "configuration": "./language-configuration.json"
             },
             {
-                "id": "scriban-csharp",
-                "aliases": ["Scriban CSharp"],
-                "extensions": [".scriban-cs", ".sbn-cs", ".sbncs"],
-                "configuration": "./language-configuration.json"
-            },            
-            {
-                "id": "scriban-html",
-                "aliases": ["Scriban Html", "scriban-html"],
-                "extensions": [".scriban-html", ".scriban-htm", ".sbn-html", ".sbn-htm", ".sbnhtml", ".sbnhtm"],
+                "id": "natscodegen-csharp",
+                "aliases": ["Natscodegen CSharp"],
+                "extensions": [".cs.nt"],
                 "configuration": "./language-configuration.json"
             }
         ],
@@ -59,23 +53,18 @@
                 "path": "./syntaxes/scriban.tmLanguage"
             },
             {
-                "language": "scriban-txt",
-                "scopeName": "text.scriban",
-                "path": "./syntaxes/scriban-txt.tmLanguage"
+                "language": "natscodegen-typescript",
+                "scopeName": "source.ts.natscodegen",
+                "path": "./syntaxes/natscodegen-typescript.tmLanguage",
+                "embeddedLanguages": {
+                    "text.script": "typescript",
+                    "source.scriban": "scriban"
+                }   
             },
             {
-                "language": "scriban-csharp",
-                "scopeName": "source.cs.scriban",
-                "path": "./syntaxes/scriban-csharp.tmLanguage"
-            },          
-            {
-                "language": "scriban-html",
-                "scopeName": "text.html.scriban",
-                "path": "./syntaxes/scriban-html.tmLanguage",
-                "embeddedLanguages": {
-                    "text.html": "html",
-                    "source.scriban": "scriban"
-                }            
+                "language": "natscodegen-csharp",
+                "scopeName": "source.cs.natscodegen",
+                "path": "./syntaxes/natscodegen-csharp.tmLanguage"
             }
         ]
     }

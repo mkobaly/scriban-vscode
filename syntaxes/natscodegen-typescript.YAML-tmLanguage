@@ -1,7 +1,7 @@
-name: Scriban-txt
-scopeName: text.scriban
-fileTypes: [scriban-txt]
-uuid: 46D6F82D-7128-47BF-987D-B9671D2F08AA
+name: Natscodegen-typescript
+scopeName: source.ts.natscodegen
+fileTypes: [natscodegen-typescript]
+uuid: 26D6F82D-7128-47BF-987D-B9671D2F08AA
 
 patterns:
 - name: comment.block.scriban

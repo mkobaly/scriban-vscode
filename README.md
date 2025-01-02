@@ -16,12 +16,8 @@ The syntax coloring supports two modes:
   - `.sbn-htm`
   - `.sbnhtml`
   - `.sbnhtm`
-- Mixed **scriban and text** (using `{{` and `}}` to enter scriban) with the expected file extensions:
-  - `.scriban-txt`
-  - `.sbn-txt`
-  - `.sbntxt`
+- Mixed **scriban and typescript** (using `{{` and `}}` to enter scriban) with the expected file extensions:
+  - `.ts.nt`
 - Mixed **scriban and C# files** (using `{{` and `}}` to enter scriban) with the expected file extensions:
-  - `.scriban-cs`
-  - `.sbn-cs`
-  - `.sbncs`  
+  - `.cs.nt`
 

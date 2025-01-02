@@ -3,15 +3,15 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>Scriban-txt</string>
+    <string>Natscodegen-typescript</string>
     <key>scopeName</key>
-    <string>text.scriban</string>
+    <string>source.ts.natscodegen</string>
     <key>fileTypes</key>
     <array>
-      <string>scriban-txt</string>
+      <string>natscodegen-typescript</string>
     </array>
     <key>uuid</key>
-    <string>46D6F82D-7128-47BF-987D-B9671D2F08AA</string>
+    <string>26D6F82D-7128-47BF-987D-B9671D2F08AA</string>
     <key>patterns</key>
     <array>
       <dict>

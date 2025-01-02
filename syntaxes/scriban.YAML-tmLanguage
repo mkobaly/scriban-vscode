@@ -1,7 +1,7 @@
 name: Scriban
 scopeName: source.scriban
 fileTypes: [scriban]
-uuid: f7870e1f-dfab-4130-91ba-22e786365910
+uuid: 27870e1f-dfab-4130-91ba-22e786365910
 
 patterns:
 - include: '#comment'
